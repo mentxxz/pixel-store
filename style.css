@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #101014;
+    color: white;
+}
+
+header {
+    background-color: #18181f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #8b5cf6;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #8b5cf6;
+}
+
+.hero {
+    min-height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    background-color: #20202a;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    color: #c4c4c4;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.botao {
+    background-color: #8b5cf6;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.jogos {
+    padding: 70px 8%;
+    text-align: center;
+}
+
+.jogos h2 {
+    margin-bottom: 35px;
+    font-size: 32px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #1b1b24;
+    width: 280px;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.card h3 {
+    color: #a78bfa;
+    margin-bottom: 15px;
+}
+
+.card p {
+    color: #bbb;
+    margin-bottom: 20px;
+}
+
+.card span {
+    display: block;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.card button {
+    border: none;
+    background-color: #8b5cf6;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sobre {
+    background-color: #18181f;
+    padding: 60px 15%;
+    text-align: center;
+}
+
+.sobre h2 {
+    margin-bottom: 20px;
+}
+
+.sobre p {
+    color: #c4c4c4;
+    line-height: 1.7;
+}
+
+footer {
+    padding: 25px;
+    text-align: center;
+    background-color: #0a0a0d;
+    color: #888;
+}
